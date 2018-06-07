@@ -25,7 +25,9 @@ SECRET_KEY = '3(2zc))1g_%zdc8q*1zyt7=j63f9014o0i)!f!l#jid@r*bkb&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+]
 
 
 # Application definition
@@ -39,6 +41,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # pip install django-extensions
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
