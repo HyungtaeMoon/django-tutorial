@@ -65,7 +65,7 @@ def detail(request, question_id):
 
     return render(request, 'polls/detail.html', context)
 
-
+    # 과제하기
     # return HttpResponse("You're looking at question %s."% question_id)
 
 def results(request, question_id):
